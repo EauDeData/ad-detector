@@ -23,6 +23,7 @@
 5. Provide to the config file the necessary paths.
 
 > A file with all the PDF's absolute routes will be required. Generate it and provide it to the config file.
+> The config file can be found in `src/config.json`; it receives all the absolute paths for the required files. Make sure to update it as demanded.
 
 6. Set 'offline' to true in the config file. 
 
