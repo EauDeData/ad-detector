@@ -4,7 +4,7 @@
                     "/home/adri/Desktop/cvc/tinder-historic/data/kwords/matrimonials_adjectius.txt",
                     "/home/adri/Desktop/cvc/tinder-historic/data/kwords/matrimonials.txt"],
     "target": "/home/adri/Desktop/cvc/tinder-historic/data/prepared/",
-    "precalculate": false,
+    "precalculate": true,
     "ui": {
         "height": 900,
         "width": 1200,

@@ -1,16 +1,17 @@
+import json 
+import os
+
 import src.offline.detection as det
 
-
-#TODO: Read everything from config file
-offline_process = 0 # TODO: As parameter
-filenames = '/home/adri/Desktop/cvc/tinder-historic/data/filenames.txt'
-files = ['/home/adri/Desktop/cvc/tinder-historic/data/kwords/matrimonials_full.txt',
-        '/home/adri/Desktop/cvc/tinder-historic/data/kwords/matrimonials_adjectius.txt',
-        '/home/adri/Desktop/cvc/tinder-historic/data/kwords/matrimonials.txt']
-target = '/home/adri/Desktop/cvc/tinder-historic/data/prepared/'
+config = json.load(open('src/config.json'))
+offline_process = config['precalculate']
+filenames = config['filenames']
+files = config['kword_files']
+target = config['target']
 
 
 #### OFFLINE STUFF ####
+if not os.path.exists(filenames): raise AssertionError(f"Filenames file not found in {filenames}, ensure there's such file with the absolute path to each PDF.")
 
 
 if offline_process:
