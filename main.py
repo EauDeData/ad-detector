@@ -7,7 +7,7 @@ config = json.load(open('src/config.json'))
 base = config['base']
 offline_process =config['precalculate']
 filenames =  base +  config['filenames']
-files = base +  config['kword_files']
+files = [base + x for x in  config['kword_files']]
 target =  base + config['target']
 
 
