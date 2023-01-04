@@ -1,9 +1,9 @@
 {
-    "filenames":  "/home/adri/Desktop/cvc/ad-detection/data/filenames.txt",
-    "kword_files": ["/home/adri/Desktop/cvc/ad-detection/data/kwords/matrimonials_full.txt",
-                    "/home/adri/Desktop/cvc/ad-detection/data/kwords/matrimonials_adjectius.txt",
-                    "/home/adri/Desktop/cvc/ad-detection/data/kwords/matrimonials.txt"],
-    "target": "/home/adri/Desktop/cvc/ad-detection/data/prepared/",
+    "filenames":  "/home/adri/Desktop/ad-detector/data/filenames.txt",
+    "kword_files": ["/home/adri/Desktop/ad-detector/data/kwords/matrimonials_full.txt",
+                    "/home/adri/Desktop/ad-detector/data/kwords/matrimonials_adjectius.txt",
+                    "/home/adri/Desktop/ad-detector/data/kwords/matrimonials.txt"],
+    "target": "/home/adri/Desktop/ad-detector/data/prepared/",
     "precalculate": true,
     "ui": {
         "height": 900,
