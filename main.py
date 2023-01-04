@@ -33,7 +33,8 @@ if offline_process:
 
 import src.gui.gui as gui
 
-interface = gui.GUI(target, data_path=filenames)
+interface = gui.GUI(target, data_path=filenames, height=config['ui']['height'], width=config['ui']['width'],
+ margin=config['ui']['margin'], lang=config['ui']['lang'], imh=config['ui']['image_height'], imw=config['ui']['image_width'])
 interface.mainloop()
 
 
