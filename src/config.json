@@ -1,0 +1,16 @@
+{
+    "filenames":  "/home/adri/Desktop/cvc/tinder-historic/data/filenames.txt",
+    "kword_files": ["/home/adri/Desktop/cvc/tinder-historic/data/kwords/matrimonials_full.txt",
+                    "/home/adri/Desktop/cvc/tinder-historic/data/kwords/matrimonials_adjectius.txt",
+                    "/home/adri/Desktop/cvc/tinder-historic/data/kwords/matrimonials.txt"],
+    "target": "/home/adri/Desktop/cvc/tinder-historic/data/prepared/",
+    "precalculate": false,
+    "ui": {
+        "height": 900,
+        "width": 1200,
+        "margin": 5,
+        "lang": "en",
+        "image_height": 440,
+        "image_width": 320
+    } 
+}
