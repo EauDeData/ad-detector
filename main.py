@@ -4,10 +4,11 @@ import os
 import src.offline.detection as det
 
 config = json.load(open('src/config.json'))
-offline_process = config['precalculate']
-filenames = config['filenames']
-files = config['kword_files']
-target = config['target']
+base = config['base']
+offline_process =config['precalculate']
+filenames =  base +  config['filenames']
+files = base +  config['kword_files']
+target =  base + config['target']
 
 
 #### OFFLINE STUFF ####

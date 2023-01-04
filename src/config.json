@@ -1,9 +1,15 @@
 {
-    "filenames":  "/home/adri/Desktop/ad-detector/data/filenames.txt",
-    "kword_files": ["/home/adri/Desktop/ad-detector/data/kwords/matrimonials_full.txt",
-                    "/home/adri/Desktop/ad-detector/data/kwords/matrimonials_adjectius.txt",
-                    "/home/adri/Desktop/ad-detector/data/kwords/matrimonials.txt"],
-    "target": "/home/adri/Desktop/ad-detector/data/prepared/",
+    "info": {
+        "base": "base directory for the project, e.g. the folder where main.py is.",
+        "filenames": "generate a file with the absolute routes for each pdf to compute (for example with the command $find [/absolute/route/to/data/] -name *pdf > filenames.txt).",
+        "precalculate": "Set true for installation, it will take for 2h to compute 300PDFs, but after finishing just set it to `false` and you won't do it again."
+    },
+    "base": "/home/adri/Desktop/ad-detector/",
+    "filenames":  "data/filenames.txt",
+    "kword_files": ["data/kwords/matrimonials_full.txt",
+                    "data/kwords/matrimonials_adjectius.txt",
+                    "data/kwords/matrimonials.txt"],
+    "target": "data/prepared/",
     "precalculate": true,
     "ui": {
         "height": 900,
