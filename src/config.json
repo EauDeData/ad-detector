@@ -10,7 +10,7 @@
                     "data/kwords/matrimonials_adjectius.txt",
                     "data/kwords/matrimonials.txt"],
     "target": "data/prepared/",
-    "precalculate": true,
+    "precalculate": false,
     "ui": {
         "height": 900,
         "width": 1200,
