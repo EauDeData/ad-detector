@@ -10,7 +10,7 @@
 
 2. Switch to the working directory
 
-> cd <PROJECT DIRECTORY>
+> cd [PROJECT DIRECTORY]
 
 3. Install Python dependencies
 
