@@ -2,7 +2,7 @@
 
 ## How to
 
-0. Insstall <a href = https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe > Miniconda </a>
+0. Install <a href = https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe > Miniconda </a>
 1. Once conda is installed create an environment with the required python version.
 
 > conda create -n ads python==3.9.12
